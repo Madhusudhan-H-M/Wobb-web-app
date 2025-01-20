@@ -1,0 +1,52 @@
+/* CampaignCard.css */
+.campaign-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  
+  .campaign-image {
+    width: 50%;
+    height: 160px;
+    object-fit: cover;
+  }
+  
+  .campaign-details {
+    padding: 15px;
+  }
+  
+  .campaign-details h2 {
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  .campaign-details .payout {
+    font-weight: bold;
+    color: #0077b5;
+  }
+  
+  .campaign-details .description {
+    color: #666;
+    margin-bottom: 10px;
+  }
+  
+  .progress-bar {
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    height: 8px;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+  
+  .progress {
+    background-color: #28a745;
+    height: 100%;
+    border-radius: 5px;
+  }
+  
+  .status {
+    font-size: 0.9rem;
+    color: #555;
+  }
+  
